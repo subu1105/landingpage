@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------nav bar css here--------- */
+
+.nav-link {
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    line-height: 16px;
+}
+
+.nav-right a {
+    font-size: 12px;
+    text-align: right;
+    color: black;
+    display: block;
+}
+
+/* ------------------banner start is here------------- */
+.banner-heading h1 {
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 46px 0px 30px;
+}
+
+.form-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-header img {
+    width: 80px;
+    height: 7px;
+    margin-top: -55px;
+}
+
+
+
+.our-services a {
+    background-image: url(img/checked_white_icon.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: white;
+    background-position: 5px 4px;
+    text-align: center;
+    /* background-position: left 5px; */
+    padding-left: 35px;
+}
+
+
+
+
+.all-service-header {
+    font-size: 26px;
+    padding: 42px 0px 15px;
+}
+
+.all-service-header::after {
+    content: '';
+    background-color: #ffd712;
+    width: 35px;
+    height: 4px;
+    display: block;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.detail img {
+    border-radius: 100%;
+    background-color: #f4f4f4;
+
+}
+
+.detail-header {
+    display: inline;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.005px;
+    margin-left: 10px;
+}
+
+.detail-description {
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 10px;
+    height: 105px;
+}
+
+.detail-bottom-part h2 {
+    font-size: 17px;
+    letter-spacing: 0.005em;
+}
+
+.detail-bottom-part p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.Why-startupwala-section {
+    text-align: center;
+}
+
+.Why-startupwala-section img {
+    border-radius: 100%;
+    background-color: #fff;
+    color: #333333;
+}
+
+.Why-startupwala-section h3 {
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin-top: 20px;
+}
+
+.Why-startupwala-section p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5384616;
+    font-size: 15px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+.client-image p {
+    margin-top: 25px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.changing-img {
+    position: relative;
+}
+
+.changing-img-content {
+    position: absolute;
+    margin-left: 75px;
+    top: 70px;
+}
+
+.changing-img-content-heading {
+    font-size: 34px;
+    color: #333333;
+    letter-spacing: 0.015em;
+    margin-bottom: 20px;
+}
+
+.changing-img-content-heading p {
+    margin-bottom: 0px;
+}
+
+.changing-img-content-text {
+    background-image: url(img/checked_green_icon.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    background-size: 15px 15px;
+    padding-left: 22px;
+
+}
+
+.blur-part {
+    padding: 28px 30px;
+    background-color: #004CD2;
+}
+
+.bottom-blue-part-top-section img {
+    width: 137px;
+    height: 179px;
+    margin-right: 45px;
+}
+
+.bottom-blue-part-bottom-section {
+    text-align: center;
+}
+
+.bottom-blue-part-bottom-section strong {
+    font-size: 32px;
+    display: block;
+    margin-top: 3px;
+    color: #f4f4f4;
+}
+
+.bottom-blue-part-bottom-section p a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.inspired-card {
+    /* background-color: #fff;
+    padding-top: 12px; */
+    text-align: left;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: black;
+}
+
+.inspired-card-effect:hover {
+    background-color: #8ea6d4d0;
+    outline: none;
+}
+
+.top-footer {
+    background-color: #4D4D4D;
+    color: white;
+}
+
+.top-footer div {
+    width: 15%;
+    text-align: left;
+}
+
+.footer-title {
+    padding-bottom: 20px;
+}
+
+.top-footer div p {
+    font-size: 13px;
+    line-height: 29px;
+    margin: 0;
+}
+
+.footer-title-line::after {
+    content: '';
+    margin-top: 10px;
+    background: white;
+    width: 25px;
+    height: 3px;
+    display: block;
+    margin-left: 7%;
+}
+
+.bottom-footer {
+    background-color: #333333;
+    color: white;
+}
+
+.bottom-footer-top li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 6px 3px;
+    font-size: 14px;
+}
+
+.bottom-footer-bottom {
+    color: white;
+    padding: 15px 0px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+}
+
+.top-mobile-footer {
+    background-color: #4D4D4D;
+}
